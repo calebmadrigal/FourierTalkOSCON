@@ -1,7 +1,9 @@
 FourierTalkOSCON
 ================
 
-## Presentation Materials for my "Sound Analysis with the Fourier Transform and Python" OSCON Talk.
+Presentation Materials for my "Sound Analysis with the Fourier Transform and Python" OSCON Talk.
+
+### To run stuff
 
 To run anything, you must use this command to run ipython notebook: **ipython notebook --pylab inline**
 
@@ -10,7 +12,7 @@ The presentation notes are all in the form of iPython Notebooks.  You can either
 * Or you can view the ipython notebooks in read-only mode by opening the Index.html
 
 
-## Python libraries used:
+### Python libraries used:
 
 * numpy
 * scipy
