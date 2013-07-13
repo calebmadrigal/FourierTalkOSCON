@@ -5,7 +5,7 @@ def get_nbviewer_url(ipynb_file):
     return "http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/{0}".format(ipynb_file)
 
 def write_index(ipynb_files):
-    f = open("index.html","w")
+    f = open("PRESENTATION_INDEX.md","w")
     f.write("<html><body><h1>iPython Notebook Files:</h1><ol>\n")
     for nb in ipynb_files:
         ipynb_url = get_nbviewer_url(nb)
