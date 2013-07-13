@@ -1,18 +1,15 @@
 FourierTalkOSCON
 ================
 
-Presentation Materials for my "Sound Analysis with the Fourier Transform and Python" OSCON Talk.
+Presentation Materials for my *Sound Analysis with the Fourier Transform and Python* [OSCON 2013 Talk](http://www.oscon.com/oscon2013/public/schedule/detail/28946).
 
-### To run stuff
+[View Presentation](https://github.com/calebmadrigal/FourierTalkOSCON/blob/master/PRESENTATION_INDEX.md)
 
-To run anything, you must use this command to run ipython notebook: **ipython notebook --pylab inline**
+**To run stuff locally**
 
-The presentation notes are all in the form of iPython Notebooks.  You can either:
-* Install all of the dependencies and run them yourself locally
-* Or you can view the ipython notebooks in read-only mode by opening the Index.html
+To run locally, you must use this command to run ipython notebook: **ipython notebook --pylab inline**
 
-
-### Python libraries used:
+You will also need to install the python libraries (along with their C dependencies):
 
 * numpy
 * scipy
@@ -20,4 +17,3 @@ The presentation notes are all in the form of iPython Notebooks.  You can either
 * ipython
 * scikits.audiolab
 
-(NOTE: To install a number of these libraries, there are underlying C dependencies.)
