@@ -1,9 +1,7 @@
-FourierTalkOSCON
+FourierTalkOSCON (http://bit.ly//15zoIIn)
 ================
 
 Presentation Materials for my [Sound Analysis with the Fourier Transform and Python](http://www.oscon.com/oscon2013/public/schedule/detail/28946) OSCON 2013 Talk.
-
-Bitly Link to THIS: http://bit.ly/15zoIIn
 
 ---
 
