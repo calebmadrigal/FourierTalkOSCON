@@ -4,14 +4,32 @@ import glob
 def get_nbviewer_url(ipynb_file):
     return "http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/{0}".format(ipynb_file)
 
-def write_index(ipynb_files):
-    f = open("PRESENTATION_INDEX.md","w")
-    f.write("<html><body><h1>Presentation iPython Notebooks:</h1><ol>\n")
+def generate_index():
+    ipynb_files = glob.glob("*.ipynb")
+    index_list = ["\n"]
     for nb in ipynb_files:
-        ipynb_url = get_nbviewer_url(nb)
-        f.write("<li><a href='{0}'>{1}</a></li>\n".format(ipynb_url, nb))
-    f.write("</ol></body></html>")
-    f.close()
+        index_list.append("* [{0}]({1})\n".format(nb, get_nbviewer_url(nb)))
+    return index_list
 
-write_index(glob.glob("*.ipynb"))
+def find_index_start_and_end(readme):
+    start_index = -1
+    end_index = -1
+    for index, line in enumerate(readme):
+        if line.strip() == "# Presentation Index":
+            start_index = index + 1
+        elif start_index >= 0 and line.strip() == "---":
+            end_index = index - 1
+            break
+    return (start_index, end_index)
+
+readme = ""
+with open("README.md", "r") as infile:
+    readme = infile.readlines()
+
+(start, end) = find_index_start_and_end(readme)
+new_readme = readme[0:start] + generate_index() + readme[end:]
+
+with open("README.md", "w") as outfile:
+    outfile.writelines(new_readme)
+
 
