@@ -6,6 +6,7 @@ def get_nbviewer_url(ipynb_file):
 
 def generate_index():
     ipynb_files = glob.glob("*.ipynb")
+    ipynb_files.sort()
     index_list = ["\n"]
     for nb in ipynb_files:
         index_list.append("* [{0}]({1})\n".format(nb, get_nbviewer_url(nb)))
