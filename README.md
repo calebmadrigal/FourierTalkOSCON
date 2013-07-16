@@ -18,11 +18,9 @@ Presentation Materials for my [Sound Analysis with the Fourier Transform and Pyt
 * [05_FourierTransform.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/05_FourierTransform.ipynb)
 * [06_FFTInPython.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/06_FFTInPython.ipynb)
 * [07_HarmonicsAndTimbre.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/07_HarmonicsAndTimbre.ipynb)
-* [08_HammingWindow.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/08_HammingWindow.ipynb)
-* [09_STFT.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/09_STFT.ipynb)
-* [10_AudioFilterLowPass.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/10_AudioFilterLowPass.ipynb)
-* [11_AudioFilterHighPass.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/11_AudioFilterHighPass.ipynb)
-* [12_Conclusion.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/12_Conclusion.ipynb)
+* [08_STFT.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/08_STFT.ipynb)
+* [09_AudioFiltering.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/09_AudioFiltering.ipynb)
+* [10_Conclusion.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/10_Conclusion.ipynb)
 
 ---
 
