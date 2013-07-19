@@ -12,10 +12,10 @@ Presentation Materials for my [Sound Analysis with the Fourier Transform and Pyt
 # Presentation Index
 
 * [01_Introduction.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/01_Introduction.ipynb)
-* [02_WaveConvolution.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/02_WaveConvolution.ipynb)
-* [03_WaveDeconvolution.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/03_WaveDeconvolution.ipynb)
-* [04_RotationWithE.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/04_RotationWithE.ipynb)
-* [05_FourierTransform.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/05_FourierTransform.ipynb)
+* [02_FourierTransform.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/02_FourierTransform.ipynb)
+* [03_WaveConvolution.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/03_WaveConvolution.ipynb)
+* [04_WaveDeconvolution.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/04_WaveDeconvolution.ipynb)
+* [05_RotationWithE.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/05_RotationWithE.ipynb)
 * [06_FFTInPython.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/06_FFTInPython.ipynb)
 * [07_SeeingSound.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/07_SeeingSound.ipynb)
 * [08_STFT.ipynb](http://nbviewer.ipython.org/url/raw.github.com/calebmadrigal/FourierTalkOSCON/master/08_STFT.ipynb)
