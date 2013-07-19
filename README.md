@@ -5,7 +5,7 @@ Presentation Materials for my [Sound Analysis with the Fourier Transform and Pyt
 
 ---
 
-### Bitly Link to this: http://bit.ly/15zoIIn
+### Link to this: http://tinyurl.com/fourierpython
 
 ---
 
